@@ -19,7 +19,6 @@
 					opacity: .8;
 				}
 
-
 				.section-black-overlay a{
 					color: #fff;
 					border-bottom: 2px solid #fff;
@@ -55,6 +54,10 @@
 					text-transform: uppercase;
 				}
 
+				h1 {
+					font-size: 3em;
+				}
+
 				h1:after, h2:after {
 					content: "";
 					display: block;
@@ -71,12 +74,6 @@
 				.section-black h1, .section-black-overlay h1, .section-black h2, .section-black-overlay h2, .section-black-overlay p{
 					color: #fff;
 				}
-
-				/*
-				.section-black h1:after, .section-black-overlay h1:after, .section-black h2:after, .section-black-overlay h2:after {
-					background-color: #fff;
-				} 
-				*/
 
 				h2 {
 					font-size: 1.5em;
@@ -95,6 +92,8 @@
 						font-size: 1.5em;
 					}
 				}
+
+			/* Pages */
 
 
 			/* Navigation */
@@ -246,6 +245,9 @@
 					}
 				}
 
+			/* Filter */
+			
+
 			/* video header */
 
 				#splash {
@@ -253,6 +255,14 @@
 					padding-top: 41.71875%; /* 1280x534 cineamtic ratio */
 					overflow: hidden;
 					background-color: rgba(0,0,0,.5);
+				}
+
+				#schedule #splash {
+					background-image: url('../images/schedule/schedule2016.jpg');
+					background-size: cover;
+					background-repeat: no-repeat;
+					background-position: center;
+
 				}
 
 				#video-viewport {
@@ -277,7 +287,6 @@
 
 				.intro h1 {
 					color: #fff;
-					font-size: 3em;
 					font-weight: bold;
 					line-height: 110%;
 					margin: 5% 5% 0 0;
@@ -318,7 +327,6 @@
 				}
 
 
-
 				@media only screen and (max-width: 660px) {
 					#splash {
 						padding-top: 100%; 
@@ -351,7 +359,7 @@
 			
 				}
 
-				.tile, .tile-large, .tile-poster {
+				.tile, .tile-medium, .tile-large, .tile-poster {
 					width: 31.5%;
 					display: block;
 					margin-bottom: 7%;
@@ -362,6 +370,10 @@
 				    box-sizing: border-box;
    					position: relative;
 
+				}
+
+				.tile-medium {
+					width: 64.75%;
 				}
 
 				.tile-large, .tile-poster {
@@ -649,6 +661,11 @@
 					border-top: 1px solid #CCCCCC;
 				}
 
+				#schedule .section-grey {
+					padding-top: 40px;
+					border-bottom: 1px solid #CCCCCC;
+				}
+
 				.section-black {
 					background-color: #000;
 				}
@@ -670,6 +687,9 @@
 
 				.section-winner, .section-sponsors {
 					padding: 40px 0 40px 0;
+				}
+
+				.section-schedule {
 				}
 
 				.full-bleed, .full-bleed img {
