@@ -33,9 +33,8 @@
 			<div id='tiles'>
 
 				<div class='tile'>
-					<div class='tile-content'>
+					<div class='tile-content' style="background-image: url('../images/events/film1.jpg')">
 						<div class='tile-genre'>genre</div>
-						<img src='images/events/film1.jpg'>
 						<div class='button-preview'></div>
 					</div>
 					<div class='tile-additional-context'>
@@ -52,9 +51,8 @@
 				</div>
 
 				<div class='tile'>
-					<div class='tile-content'>
+					<div class='tile-content' style="background-image: url('../images/events/film2.jpg')">
 						<div class='tile-genre'>genre</div>
-						<img src='images/events/film2.jpg'>
 						<div class='button-preview'></div>
 					</div>
 					<div class='tile-additional-context'>
@@ -71,9 +69,8 @@
 				</div>
 
 				<div class='tile'>
-					<div class='tile-content'>
+					<div class='tile-content' style="background-image: url('../images/events/film3.jpg')">
 						<div class='tile-genre'>genre</div>
-						<img src='images/events/film3.jpg'>
 						<div class='button-preview'></div>
 					</div>
 					<div class='tile-additional-context'>
@@ -88,26 +85,24 @@
 				</div>				
 
 				<div class='tile tile-large'>
-					<div class='tile-content'>
+					<div class='tile-content' style="background-image: url('../images/events/film4.jpg')">
 						<div class='tile-genre'>genre</div>
-						<img src='images/events/film4.jpg'>
 						<div class='button-preview'></div>
-						<div class='tile-additional-context'>
-							<h3>Title of the movie
-							<span>OCT. 18 <em>6:00PM</em></span>
-							</h3>
-							<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-							</p>
-						</div>			
 					</div>
+					<div class='tile-additional-context'>
+						<h3>Title of the movie
+						<span>OCT. 18 <em>6:00PM</em></span>
+						</h3>
+						<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						</p>
+					</div>			
 					<a href=''></a>
 				</div>	
 
 				<div class='tile'>
-					<div class='tile-content'>
+					<div class='tile-content' style="background-image: url('../images/events/film5.jpg')">
 						<div class='tile-genre'>genre</div>
-						<img src='images/events/film5.jpg'>
 						<div class='button-preview'></div>
 					</div>
 					<div class='tile-additional-context'>
@@ -122,9 +117,8 @@
 				</div>		
 
 				<div class='tile'>
-					<div class='tile-content'>
+					<div class='tile-content' style="background-image: url('../images/events/film7.jpg')">
 						<div class='tile-genre'>genre</div>
-						<img src='images/events/film7.jpg'>
 						<div class='button-preview'></div>
 					</div>
 					<div class='tile-additional-context'>
@@ -139,12 +133,11 @@
 				</div>						
 
 				<div class='tile tile-poster'>
-					<div class='tile-content'>
+					<div class='tile-content' style="background-image: url('../images/events/poster-event.jpg')">
 						<div class='tile-genre'>genre</div>
-						<img src='images/events/poster-event.jpg'>
 					</div>
 					<div class='tile-additional-context'>
-						<h3>Title of the movie
+						<h3>Vodka and a drop of art
 							<span>OCT. 18 <em>6:00PM</em></span>
 						</h3>
 						<p>
@@ -157,27 +150,10 @@
 			</div><!-- close tiles -->
 
 			<a class='button-1 button-schedule-home' href=''>see the 2016 schedule</a>
-
-			<!--<div class='triangle triangle-lower-right'>
-				<img src='images/site/triangle-grey.png'>
-			</div>
 			-->		
 
 		</section>
 
-		<!--
-		<section class='party'>
-			<div class='party-tile-1'>
-			</div>
-
-			<div class='party-tile-2'>
-				<h2>Join us at the parties</h2>
-					<p>Join us for free food and drink. Talk with VIP gues, enjoy Polish beer, and meet fellow cinema lovers.
-					This year we're hosting two parties: <a href=''>The Gala Party Oct. 18 - 6:00PM</a> and <a href=''>The Grande Finale Party Oct. 27 - 6:00PM</a>
-					</p>
-			</div>
-		</section>
-		-->
 
 		<section class='section-grey section-winner'>
 			<h2>The 2015 Viewer's Choice Award </h2>
@@ -185,14 +161,14 @@
 			<div id='tiles'>
 
 				<div class='tile-large'>
-					<div class='tile-content'>
-						<img src='images/awards/2015.jpg'>
-						<div class='tile-additional-context tile-winner'>
-							<span><img src='images/home/award.jpg'></span>
-							<p>We have the pleasure to announce the 2015 Seattle Polish Film Festival Viewers Choice Award winner: <a href=''>Gods directed by Łukasz Palkowski.</a><br><br>Congratulations to the winner and a big thank you for all your votes.
-							</p>
-						</div>			
+					<div class='tile-content' style="background-image: url('../images/awards/2015.jpg')">
 					</div>
+
+					<div class='tile-additional-context tile-winner'>
+						<span><img src='images/home/award.jpg'></span>
+						<p>We have the pleasure to announce the 2015 Seattle Polish Film Festival Viewers Choice Award winner: <a href=''>Gods directed by Łukasz Palkowski.</a><br><br>Congratulations to the winner and a big thank you for all your votes.
+						</p>
+					</div>			
 				</div>	
 
 		</section>
@@ -228,7 +204,7 @@
 
 				<div class='button-flex'>
 					<a class='button-2 button-facebook' href='https://www.facebook.com/seattle.polish.film.festival/' target='_blank'>Facebook</a>
-					<a class='button-2 button-email' href='mailto:someone@example.com'>Email Us</a>
+					<a class='button-2 button-email' href='mailto:michal@polishfilms.org'>Email Us</a>
 				</div>
 			</div>
 

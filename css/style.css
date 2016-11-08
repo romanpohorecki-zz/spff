@@ -58,7 +58,7 @@
 					font-size: 3em;
 				}
 
-				h1:after, h2:after {
+				h2:after {
 					content: "";
 					display: block;
 					height: 6px;
@@ -148,6 +148,8 @@
 
 				#welcome .menu .welcome span,
 				#schedule .menu .schedule span,
+				#news .menu .news span,
+
 				#get-involved .menu .get-involved span,
 				#submit-a-film .menu .submit-a-film span {
 					border-bottom: 2px solid #000;
@@ -359,7 +361,7 @@
 			
 				}
 
-				.tile, .tile-medium, .tile-large, .tile-poster {
+				.tile, .tile-medium, .tile-large, .tile-poster, .tile-news {
 					width: 31.5%;
 					display: block;
 					margin-bottom: 7%;
@@ -380,9 +382,36 @@
 					width: 100%;
 				}
 
+				.tile-news {
+					width: 46.5%;
+					margin-left: 2.25%;
+				}
+
 				.tile-content {
 					position: relative;
+					background-position: center;
+					background-repeat: no-repeat;
+					background-size: cover;
 				}
+
+				.tile-content:after {
+					content: "";
+					display: block;
+					padding-top: 56.25%;
+				}
+
+				.tile-large	.tile-content:after {
+					padding-top: 33.25%;
+				}
+
+				.tile-poster .tile-content {
+					width: 31.5%;
+				}
+
+				.tile-poster .tile-content:after {
+					padding-top: 100%;
+				}
+
 
 				.tile a{
 					position: absolute;
@@ -394,14 +423,11 @@
 					border: 0;
 				}
 
+				/*
 				.tile-content img {
 					width: 100%;
 					display: block;
-				}
-
-				.tile-poster .tile-content img {
-					width: 31.5%;
-				}
+				}*/
 
 				.tile-genre {
 					background-color: rgba(0,0,0,1);
@@ -709,10 +735,27 @@
 					padding-top: 40px;
 				}
 
-				.about p, .sponsors p{
-					max-width: 60%;
+				.section-news {
+					padding: 100px 0 80px 0;
+				}
+
+				.section-news h2 {
+					margin-bottom: 20px;
+				}
+
+				.about p, .sponsors p, .section-news p{
+					width: 60%;
+					max-width: 900px;
 					margin: 0 auto 0 auto;
 					padding: 40px 0 0 0;
+				}
+
+				.section-news img {
+					width: 60%;
+					max-width: 900px;
+					display: block;
+					margin: 0 auto 0 auto;
+
 				}
 
 				.tiles-sponsors {
@@ -852,4 +895,18 @@
 						width: 56%;
 						font-size: 10px;
 					}
+				}
+
+				.copyright {
+					position: absolute;
+					bottom: 0;
+					width: 100%;
+					text-align: center;
+					color: rgba(255,255,255,.75);
+				}
+
+				.copyright p{
+					line-height: 40px;
+					font-size: 12px;
+				}
 				}

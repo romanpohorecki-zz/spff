@@ -17,4 +17,5 @@
 					</p>
 				</div>
 			</div>
+			<div class='copyright'><p>Copyright © 2016 :: Seattle Polish Film Festival</p></div>	
 		</footer>
