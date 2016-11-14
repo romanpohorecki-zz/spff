@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html>
-	<?php include 'includes/head.php';?>
+	<head>
+	    <title>Seattle Polish Film Festival</title>
+	    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet'>
+
+		<link type="text/css" rel="stylesheet" href="css/style.css" media="screen" />
+		<script src="https://code.jquery.com/jquery-latest.js"></script>
+		<script src="js/full-screen-video.js" type="text/javascript"></script>
+		<script src="js/menu-fade-in.js" type="text/javascript"></script>
+	</head>
 	<body id="news">
 
 		<?php include 'includes/nav.php';?>
 
-		<section id='splash' style="background-image: url('../images/news/news-header.jpg')">
+		<section id='splash' style="background-image: url('images/news/news-header.jpg')">
 			<div class='section-black-overlay'>
 				<h1 class='vertical-align'>News</h1>
 			</div>
@@ -20,7 +32,7 @@
 			<h2>2016</h2>
 			<div id='tiles'>
 				<div class='tile tile-news'>
-					<div class='tile-content' style="background-image: url('../images/news/kacper.jpg')">
+					<div class='tile-content' style="background-image: url('images/news/kacper.jpg')">
 						<div class='tile-genre'>news</div>
 					</div>
 					<div class='tile-additional-context'>
@@ -34,7 +46,7 @@
 					<a href='news/news-item.php'></a>
 				</div>
 				<div class='tile tile-news'>
-					<div class='tile-content' style="background-image: url('../images/news/malgorzatag.jpg')">
+					<div class='tile-content' style="background-image: url('images/news/malgorzatag.jpg')">
 						<div class='tile-genre'>news</div>
 					</div>
 					<div class='tile-additional-context'>

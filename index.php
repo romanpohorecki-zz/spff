@@ -1,7 +1,19 @@
 <!DOCTYPE html>
 <html>
-	<?php include 'includes/head.php';?>
+	<head>
+	    <title>Seattle Polish Film Festival</title>
+	    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet'>
+
+		<link type="text/css" rel="stylesheet" href="css/style.css" media="screen" />
+		<script src="https://code.jquery.com/jquery-latest.js"></script>
+		<script src="js/full-screen-video.js" type="text/javascript"></script>
+		<script src="js/menu-fade-in.js" type="text/javascript"></script>
+	</head>
 
 	<body id="welcome">
 
@@ -33,7 +45,7 @@
 			<div id='tiles'>
 
 				<div class='tile'>
-					<div class='tile-content' style="background-image: url('../images/events/film1.jpg')">
+					<div class='tile-content' style="background-image: url('images/events/film1.jpg')">
 						<div class='tile-genre'>genre</div>
 						<div class='button-preview'></div>
 					</div>
@@ -51,7 +63,7 @@
 				</div>
 
 				<div class='tile'>
-					<div class='tile-content' style="background-image: url('../images/events/film2.jpg')">
+					<div class='tile-content' style="background-image: url('images/events/film2.jpg')">
 						<div class='tile-genre'>genre</div>
 						<div class='button-preview'></div>
 					</div>
@@ -69,7 +81,7 @@
 				</div>
 
 				<div class='tile'>
-					<div class='tile-content' style="background-image: url('../images/events/film3.jpg')">
+					<div class='tile-content' style="background-image: url('images/events/film3.jpg')">
 						<div class='tile-genre'>genre</div>
 						<div class='button-preview'></div>
 					</div>
@@ -85,7 +97,7 @@
 				</div>				
 
 				<div class='tile tile-large'>
-					<div class='tile-content' style="background-image: url('../images/events/film4.jpg')">
+					<div class='tile-content' style="background-image: url('images/events/film4.jpg')">
 						<div class='tile-genre'>genre</div>
 						<div class='button-preview'></div>
 					</div>
@@ -101,7 +113,7 @@
 				</div>	
 
 				<div class='tile'>
-					<div class='tile-content' style="background-image: url('../images/events/film5.jpg')">
+					<div class='tile-content' style="background-image: url('images/events/film5.jpg')">
 						<div class='tile-genre'>genre</div>
 						<div class='button-preview'></div>
 					</div>
@@ -117,7 +129,7 @@
 				</div>		
 
 				<div class='tile'>
-					<div class='tile-content' style="background-image: url('../images/events/film7.jpg')">
+					<div class='tile-content' style="background-image: url('images/events/film7.jpg')">
 						<div class='tile-genre'>genre</div>
 						<div class='button-preview'></div>
 					</div>
@@ -133,7 +145,7 @@
 				</div>						
 
 				<div class='tile tile-poster'>
-					<div class='tile-content' style="background-image: url('../images/events/poster-event.jpg')">
+					<div class='tile-content' style="background-image: url('images/events/poster-event.jpg')">
 						<div class='tile-genre'>genre</div>
 					</div>
 					<div class='tile-additional-context'>
@@ -161,7 +173,7 @@
 			<div id='tiles'>
 
 				<div class='tile-large'>
-					<div class='tile-content' style="background-image: url('../images/awards/2015.jpg')">
+					<div class='tile-content' style="background-image: url('images/awards/2015.jpg')">
 					</div>
 
 					<div class='tile-additional-context tile-winner'>
