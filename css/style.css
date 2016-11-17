@@ -56,13 +56,25 @@
 
 				h1 {
 					font-size: 3em;
+					width: 100%;
+					text-align: center;
 				}
+
+				h1 span {
+					width: 100%;
+					display: block;
+					font-size: .5em;
+					text-align: center;
+					font-style: italic;
+					padding-bottom: 20px;
+				}
+
 
 				h2:after {
 					content: "";
 					display: block;
-					height: 6px;
-					width: 30px;
+					height: 4px;
+					width: 40px;
 					background-color: #C51310;
 					margin: 10px auto 0 auto;
 				}
@@ -259,12 +271,10 @@
 					background-color: rgba(0,0,0,.5);
 				}
 
-				#schedule #splash {
-					background-image: url('../images/schedule/schedule2016.jpg');
+				#schedule #splash, #event #splash  {
 					background-size: cover;
 					background-repeat: no-repeat;
 					background-position: center;
-
 				}
 
 				#video-viewport {
@@ -272,6 +282,10 @@
 				    top: 0;
 				    z-index: -1; /* for accessing the video by click */
 				    overflow: hidden;
+				}
+
+				#splash a {
+					border: 0;
 				}
 
 				.intro-centering {
@@ -558,18 +572,27 @@
 
 			/* Buttons */
 
-				.button-1, .button-2{
+				.button-1, .button-2, .button-3{
 					text-transform: uppercase;
 					color: #fff;
 					padding: 15px 60px 15px 60px;
 					background-color: #C51310;
 					font-family: 'Open Sans';
 					font-weight: 400;
-					display: block;
+					display: inline-table;
 					margin: 0 auto 0 auto;
 					text-align: center;
 					font-size: 10px;
 					letter-spacing: 2px;
+					border: 0;
+				}
+
+				.button-3 {
+					border: 1px solid #000;
+					color: #000;
+					letter-spacing: 1px;
+					background-color: transparent;
+					font-weight: 600;
 				}
 
 				.button-schedule-home{
@@ -582,6 +605,49 @@
 					color: rgba(255,255,255,1);
 					border: 1px solid rgba(255,255,255,1);
 					background-color: transparent;
+				}
+
+				.button-event-location{
+				    padding: 15px;
+				    display: inline-block;
+				    border: 1px solid;
+				    font-weight: 600;
+				    text-transform: uppercase;
+				    font-size: 10px;
+				    letter-spacing: 1px;
+				    margin: 20px 0 0 0;
+				}
+
+				.button-event-location:before {
+					content: "";
+					display: inline-block;
+					margin: 0 5px 0 0;
+					width: 7px;
+					height: 12px;
+					background-image: url('../images/site/location.svg');
+					background-position: bottom;
+					background-size: 100%;
+					background-repeat: no-repeat;
+				}
+
+				.tile .button-preview, #splash .button-preview {
+					width: 60px;
+					height: 60px;
+					display: block;
+					margin: 0 auto;
+					z-index: 200;
+					background-image: url('../images/site/button-preview.svg');
+					background-position: center;
+					background-repeat: no-repeat;
+				}
+
+				.tile .button-preview{
+					position: absolute;
+					left: 0; 
+  					right: 0; 
+  					top: 0;
+  					bottom: 0;
+  					margin: auto;
 				}
 
 				.button-facebook, .button-email {
@@ -624,7 +690,7 @@
 				}
 
 
-			/* Triangle Sections */
+			/* Triangles */
 
 				.triangle {
 					display: block;
@@ -687,6 +753,16 @@
 					border-top: 1px solid #CCCCCC;
 				}
 
+				.next-up {
+					padding: 80px 0 0 0;
+					border-top: 0;
+				}
+
+				.next-up #tiles {
+					-webkit-justify-content: center; 
+					justify-content: center; 
+				}
+
 				#schedule .section-grey {
 					padding-top: 40px;
 					border-bottom: 1px solid #CCCCCC;
@@ -715,6 +791,10 @@
 					padding: 40px 0 40px 0;
 				}
 
+				.section-winner {
+					padding-top: 100px;
+				}
+
 				.section-schedule {
 				}
 
@@ -728,7 +808,7 @@
 					background-image: url(../images/home/home-bk.png);
 					background-position: center;
 					background-size: cover;	
-					padding-bottom: 100px;
+					padding-bottom: 20px;
 				}
 
 				.about h2 {
@@ -750,12 +830,15 @@
 					padding: 40px 0 0 0;
 				}
 
+				.about-description {
+					padding: 40px 0 0 0;
+				}
+
 				.section-news img {
 					width: 60%;
 					max-width: 900px;
 					display: block;
 					margin: 0 auto 0 auto;
-
 				}
 
 				.tiles-sponsors {
@@ -799,6 +882,67 @@
 					.tiles-sponsors div {
 						width: 45%;
 					}
+				}
+
+			/* Detail pages */
+
+				.event-details {
+					max-width: 960px;
+					margin: 0 auto;
+					padding: 0 0 30px 0;
+    				border-bottom: 1px solid #CCCCCC;
+				}
+
+				.event-details .button-3 {
+					margin-right: 10px;
+				}
+
+				.event-details h3{
+				    font-size: 66px;
+				    line-height: 60%;
+				    margin-bottom: 30px;
+				}
+
+				.event-details h3 span{
+					font-size: 18px;
+					display: block;
+					color: rgba(0,0,0,.25);
+				}
+
+				.event-description {
+					width: 960px;
+					margin: 0 auto;
+					padding: 30px 0 60px 0;
+					-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    				-moz-column-count: 2; /* Firefox */
+    				column-count: 2;
+    				-webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    				-moz-column-gap: 40px; /* Firefox */
+    				column-gap: 40px;
+				}
+
+				.event-film-details{
+					width: 960px;
+					margin: 0 auto 60px auto;
+				}
+
+				.event-film-details li{
+					display: flex;
+					justify-content: space-between;
+					line-height: 60px;
+					border-bottom: 1px solid #cccccc;
+					text-indent: 5px;
+				}
+
+				.event-film-details li:last-child{
+					border: 0;
+				}
+
+				.event-film-details li:last-child span{
+					width: 60%;
+					text-align: right;
+					line-height: 150%;
+					margin-top: 12px;
 				}
 
 

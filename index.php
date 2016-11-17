@@ -57,9 +57,7 @@
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 						</p>
 					</div>
-
-					<a href=''></a>
-
+					<a href='/events/film-event.php'></a>
 				</div>
 
 				<div class='tile'>
@@ -75,9 +73,7 @@
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 						</p>
 					</div>
-
-					<a href=''></a>
-
+					<a href='/events/film-event.php'></a>
 				</div>
 
 				<div class='tile'>
@@ -93,7 +89,7 @@
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 						</p>
 					</div>
-					<a href=''></a>
+					<a href='/events/film-event.php'></a>
 				</div>				
 
 				<div class='tile tile-large'>
@@ -109,7 +105,7 @@
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 						</p>
 					</div>			
-					<a href=''></a>
+					<a href='/events/film-event.php'></a>
 				</div>	
 
 				<div class='tile'>
@@ -125,7 +121,7 @@
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 						</p>
 					</div>
-					<a href=''></a>
+					<a href='/events/film-event.php'></a>
 				</div>		
 
 				<div class='tile'>
@@ -141,7 +137,7 @@
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 						</p>
 					</div>
-					<a href=''></a>
+					<a href='/events/film-event.php'></a>
 				</div>						
 
 				<div class='tile tile-poster'>
@@ -156,18 +152,24 @@
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 						</p>
 					</div>
-					<a href=''></a>
+					<a href='/events/film-event.php'></a>
 				</div>		
 
 			</div><!-- close tiles -->
 
 			<a class='button-1 button-schedule-home' href=''>see the 2016 schedule</a>
-			-->		
+			
 
 		</section>
 
 
 		<section class='section-grey section-winner'>
+
+			<div class='triangle triangle-upper-left'>
+				<img src='images/site/triangle-border.png'>
+			</div>
+			
+
 			<h2>The 2015 Viewer's Choice Award </h2>
 
 			<div id='tiles'>
@@ -193,7 +195,7 @@
 				<img class='' src='images/home/about.jpg'>
 			</div>
 
-			<div>
+			<div class='about-description'>
 				<p>
 					Seattle Polish Film Festival (SPFF) is an annual event showcasing the best of Polish cinema since the early 1990’s. The SPFF is produced and presented by the non-profit Seattle-Gdynia Sister City Association.
 				</p>
