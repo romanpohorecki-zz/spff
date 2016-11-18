@@ -7,7 +7,8 @@
 <desc>Created with Sketch.</desc>
 <g id="Page-1">
 	<g id="Artboard">
-		<polygon id="Rectangle" fill="#F2F2F2" points="2800,0 2800,200 0,200 		"/>
+		<polygon id="Rectangle" fill="#FFFFFF" points="2800,0 2800,200 0,200 		"/>
 	</g>
 </g>
+<line fill="none" stroke="#CCCCCC" stroke-width="1.5" stroke-miterlimit="10" x1="0" y1="200" x2="2800" y2="0"/>
 </svg>

@@ -945,6 +945,23 @@
 					margin-top: 12px;
 				}
 
+				.event-buy-tickets {
+					background-color: #fff !important;
+					width: 100%;
+					padding: 40px;
+				}
+
+				.event-buy-tickets p{
+					font-size: 2em;
+					max-width: 480px;
+					font-weight: 300;
+					text-align: center;
+					margin: 0 auto;
+					display: block;
+				}
+
+
+
 
 			/* Footer */
 
@@ -972,6 +989,10 @@
 					width: 500px;
 				}
 
+				.event-buy-tickets form {
+					padding: 40px 0 20px 0;
+				}
+
 				form input[type=text]{
 					padding: 10px;
 					text-indent: 10px;
@@ -979,6 +1000,7 @@
 					width: 300px;
 					font-size: 14px;
 					border: 1px solid rgba(0,0,0,.15);
+					box-sizing: content-box;
 				}
 
 				form span{
@@ -1004,7 +1026,7 @@
 					z-index: 50;
 					background-color: #000;
 					content: "sign me up";
-					width: 120px;
+					width: 160px;
 					font-size: 12px;
 					letter-spacing: 1px;
 					height: 34px;
@@ -1013,6 +1035,11 @@
 					color: #fff;
 					text-align: center;
 					text-transform: uppercase;
+				}
+
+				.event-buy-tickets
+				form span:after{
+					content: "remind me";
 				}
 
 				form input[type=submit]:hover{
@@ -1052,5 +1079,4 @@
 				.copyright p{
 					line-height: 40px;
 					font-size: 12px;
-				}
 				}

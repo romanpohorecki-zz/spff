@@ -9,14 +9,15 @@
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet'>
 		<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet'>
 
+		<link href="../dist/lity.css" rel="stylesheet">
+		<script src="../vendor/jquery.js"></script>
+		<script src="../dist/lity.js"></script>
+
 		<link href="../css/style.css" media="screen" rel="stylesheet">
 		<script src="https://code.jquery.com/jquery-latest.js"></script>
 		<script src="js/full-screen-video.js" type="text/javascript"></script>
 		<script src="js/menu-fade-in.js" type="text/javascript"></script>
 
-		<link href="../dist/lity.css" rel="stylesheet">
-		<script src="../vendor/jquery.js"></script>
-		<script src="../dist/lity.js"></script>
 	</head>
 	<body id="event">
 
@@ -42,8 +43,21 @@
 					<h3><span>October 18, 2016</span>6:00PM</h3>
 					<div>
 						<a class='button-3' href='https://www.google.com/maps/place/SIFF+Cinema+Uptown' target='_blank'>SIFF Uptown Cinema</a>
-						<a class='button-3 button-tickets' href='http://www.siff.com'>buy tickets</a>
+						<a class='button-3 button-tickets' href='#inline' data-lity>buy tickets</a>
 						<a class='button-3 button-tickets' href='../events/film-event.ics'>add to calendar</a>
+					</div>
+			</div>
+
+			<div id="inline" class="lity-hide">
+					<div class='event-buy-tickets'>
+					<h2>Buy Tickets</h2>
+					<p>
+						Tickets are not yet available online. Would you like to get an email reminder when they become available?
+					</p>
+					<form action="">
+						<input type="text" name="email" placeholder="Enter your email">
+						<span><input type="submit" value="Remind me"></span>
+					</form>
 					</div>
 			</div>
 
