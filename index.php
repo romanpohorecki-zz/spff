@@ -9,10 +9,17 @@
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet'>
 		<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet'>
 
+		<link href="../dist/lity.css" rel="stylesheet">
+		<script src="../vendor/jquery.js"></script>
+		<script src="../dist/lity.js"></script>
+
 		<link type="text/css" rel="stylesheet" href="css/style.css" media="screen" />
 		<script src="https://code.jquery.com/jquery-latest.js"></script>
 		<script src="js/full-screen-video.js" type="text/javascript"></script>
 		<script src="js/menu-fade-in.js" type="text/javascript"></script>
+		<script src="js/scroll-to-top.js" type="text/javascript"></script>
+
+		
 	</head>
 
 	<body id="welcome">
@@ -29,7 +36,7 @@
 				<div class='intro'>
 					<div>
 						<h1>Welcome to the <b>24th</b> Annual Seattle Polish Film Festival</h1>
-						<p>Join us for 36 films shown October 12-23, 2016 at the SIFF Cinema Uptown.</p>
+						<p>Seattle Polish Film Festival (SPFF) is an annual event showcasing the best of Polish cinema since the early 1990s. The SPFF is produced and presented by the Seattle-Gdynia Sister City Association.</p>
 					</div>
 					<img src='images/home/poster-2016.jpg'>
 				</div>
@@ -39,15 +46,31 @@
 			</div>
 		</div>
 
-		<section title='highlights' class='highlights'>
+		<section title='highlights' class='section-highlights'>
 			<h2>2016 Highlights</h2>
 
 			<div id='tiles'>
 
+				<div class='tile tile-news'>
+					<div class='tile-content' style="background-image: url('images/news/kacper.jpg')">
+						<div class='tile-genre'>news</div>
+					</div>
+					<div class='tile-additional-context'>
+						<h3>“CALL ME MARIANNA” – AN INTERVIEW WITH CINEMATOGRAPHER KACPER CZUBAK
+						</h3>
+						<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+						</p>
+					</div>
+					<a href='news/news-item.php'></a>
+				</div>
+
 				<div class='tile'>
 					<div class='tile-content' style="background-image: url('images/events/film1.jpg')">
 						<div class='tile-genre'>genre</div>
-						<div class='button-preview'></div>
+						<a class='button-preview' href="https://www.youtube.com/watch?v=ba2VFJEP71c" data-lity></a>
 					</div>
 					<div class='tile-additional-context'>
 						<h3>Title of the movie
@@ -60,10 +83,10 @@
 					<a href='/events/film-event.php'></a>
 				</div>
 
-				<div class='tile'>
+				<div class='tile tile-medium '>
 					<div class='tile-content' style="background-image: url('images/events/film2.jpg')">
 						<div class='tile-genre'>genre</div>
-						<div class='button-preview'></div>
+						<a class='button-preview' href="https://www.youtube.com/watch?v=ba2VFJEP71c" data-lity></a>
 					</div>
 					<div class='tile-additional-context'>
 						<h3>Title of the movie
@@ -79,7 +102,7 @@
 				<div class='tile'>
 					<div class='tile-content' style="background-image: url('images/events/film3.jpg')">
 						<div class='tile-genre'>genre</div>
-						<div class='button-preview'></div>
+						<a class='button-preview' href="https://www.youtube.com/watch?v=ba2VFJEP71c" data-lity></a>
 					</div>
 					<div class='tile-additional-context'>
 						<h3>Title of the movie
@@ -95,7 +118,7 @@
 				<div class='tile tile-large'>
 					<div class='tile-content' style="background-image: url('images/events/film4.jpg')">
 						<div class='tile-genre'>genre</div>
-						<div class='button-preview'></div>
+						<a class='button-preview' href="https://www.youtube.com/watch?v=ba2VFJEP71c" data-lity></a>
 					</div>
 					<div class='tile-additional-context'>
 						<h3>Title of the movie
@@ -111,7 +134,7 @@
 				<div class='tile'>
 					<div class='tile-content' style="background-image: url('images/events/film5.jpg')">
 						<div class='tile-genre'>genre</div>
-						<div class='button-preview'></div>
+						<a class='button-preview' href="https://www.youtube.com/watch?v=ba2VFJEP71c" data-lity></a>
 					</div>
 					<div class='tile-additional-context'>
 						<h3>Title of the movie
@@ -124,10 +147,10 @@
 					<a href='/events/film-event.php'></a>
 				</div>		
 
-				<div class='tile'>
+				<div class='tile tile-medium'>
 					<div class='tile-content' style="background-image: url('images/events/film7.jpg')">
 						<div class='tile-genre'>genre</div>
-						<div class='button-preview'></div>
+						<a class='button-preview' href="https://www.youtube.com/watch?v=ba2VFJEP71c" data-lity></a>
 					</div>
 					<div class='tile-additional-context'>
 						<h3>Title of the movie
@@ -142,7 +165,6 @@
 
 				<div class='tile tile-poster'>
 					<div class='tile-content' style="background-image: url('images/events/poster-event.jpg')">
-						<div class='tile-genre'>genre</div>
 					</div>
 					<div class='tile-additional-context'>
 						<h3>Vodka and a drop of art
@@ -224,15 +246,8 @@
 
 		</section>
 
-
-
 		
-		<section class='section-sponsors sponsors'>
-			<!--
-			<div class='triangle triangle-upper-left'>
-				<img src='images/site/triangle-black.png'>
-			</div>
-			-->
+		<section class='section-sponsors'>
 			
 			<h2>Sponsors</h2>
 

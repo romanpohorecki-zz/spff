@@ -9,16 +9,22 @@
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet'>
 		<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet'>
 
+		<link href="../dist/lity.css" rel="stylesheet">
+		<script src="../vendor/jquery.js"></script>
+		<script src="../dist/lity.js"></script>
+
 		<link type="text/css" rel="stylesheet" href="css/style.css" media="screen" />
 		<script src="https://code.jquery.com/jquery-latest.js"></script>
 		<script src="js/full-screen-video.js" type="text/javascript"></script>
 		<script src="js/menu-fade-in.js" type="text/javascript"></script>
+		<script src="js/scroll-to-top.js" type="text/javascript"></script>
+
 	</head>
 	<body id="schedule">
 
 		<?php include 'includes/nav.php';?>
 
-		<section id='splash'>
+		<section id='splash' style="background-image: url('images/events/events-2016.jpg')">
 			<div class='section-black-overlay'>
 				<h1 class='vertical-align'>2016 Schedule</h1>
 			</div>
@@ -45,13 +51,13 @@
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 						</p>
 					</div>
-					<a href=''></a>
+					<a href='/events/film-event.php'></a>
 				</div>	
 
 				<div class='tile'>
 					<div class='tile-content' style="background-image: url('images/events/film1.jpg')">
 						<div class='tile-genre'>genre</div>
-						<div class='button-preview'></div>
+						<a class='button-preview' href="https://www.youtube.com/watch?v=ba2VFJEP71c" data-lity></a>
 					</div>
 					<div class='tile-additional-context'>
 						<h3>Title of the movie
@@ -61,13 +67,13 @@
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 						</p>
 					</div>
-					<a href=''></a>
+					<a href='/events/film-event.php'></a>
 				</div>
 
 				<div class='tile'>
 					<div class='tile-content' style="background-image: url('images/events/film2.jpg')">
 						<div class='tile-genre'>genre</div>
-						<div class='button-preview'></div>
+						<a class='button-preview' href="https://www.youtube.com/watch?v=ba2VFJEP71c" data-lity></a>
 					</div>
 					<div class='tile-additional-context'>
 						<h3>Title of the movie
@@ -77,13 +83,13 @@
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 						</p>
 					</div>
-					<a href=''></a>
+					<a href='/events/film-event.php'></a>
 				</div>
 
 				<div class='tile'>
 					<div class='tile-content' style="background-image: url('images/events/film3.jpg')">
 						<div class='tile-genre'>genre</div>
-						<div class='button-preview'></div>
+						<a class='button-preview' href="https://www.youtube.com/watch?v=ba2VFJEP71c" data-lity></a>
 					</div>
 					<div class='tile-additional-context'>
 						<h3>Title of the movie
@@ -93,13 +99,13 @@
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 						</p>
 					</div>
-					<a href=''></a>
+					<a href='/events/film-event.php'></a>
 				</div>				
 
 				<div class='tile tile-large'>
 					<div class='tile-content' style="background-image: url('images/events/film4.jpg')">
 						<div class='tile-genre'>genre</div>
-						<div class='button-preview'></div>
+						<a class='button-preview' href="https://www.youtube.com/watch?v=ba2VFJEP71c" data-lity></a>
 					</div>
 					<div class='tile-additional-context'>
 						<h3>Title of the movie
@@ -109,13 +115,13 @@
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 						</p>
 					</div>			
-					<a href=''></a>
+					<a href='/events/film-event.php'></a>
 				</div>	
 
 				<div class='tile'>
 					<div class='tile-content' style="background-image: url('images/events/film5.jpg')">
 						<div class='tile-genre'>genre</div>
-						<div class='button-preview'></div>
+						<a class='button-preview' href="https://www.youtube.com/watch?v=ba2VFJEP71c" data-lity></a>
 					</div>
 					<div class='tile-additional-context'>
 						<h3>Title of the movie
@@ -125,13 +131,13 @@
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 						</p>
 					</div>
-					<a href=''></a>
+					<a href='/events/film-event.php'></a>
 				</div>		
 
 				<div class='tile'>
 					<div class='tile-content' style="background-image: url('images/events/film7.jpg')">
 						<div class='tile-genre'>genre</div>
-						<div class='button-preview'></div>
+						<a class='button-preview' href="https://www.youtube.com/watch?v=ba2VFJEP71c" data-lity></a>
 					</div>
 					<div class='tile-additional-context'>
 						<h3>Title of the movie
@@ -141,7 +147,7 @@
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 						</p>
 					</div>
-					<a href=''></a>
+					<a href='/events/film-event.php'></a>
 				</div>							
 
 			</div><!-- close tiles -->

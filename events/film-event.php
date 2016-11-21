@@ -15,8 +15,10 @@
 
 		<link href="../css/style.css" media="screen" rel="stylesheet">
 		<script src="https://code.jquery.com/jquery-latest.js"></script>
-		<script src="js/full-screen-video.js" type="text/javascript"></script>
-		<script src="js/menu-fade-in.js" type="text/javascript"></script>
+		<script src="../js/full-screen-video.js" type="text/javascript"></script>
+		<script src="../js/menu-fade-in.js" type="text/javascript"></script>
+		<script src="../js/scroll-to-top.js" type="text/javascript"></script>
+
 
 	</head>
 	<body id="event">
@@ -38,56 +40,58 @@
 			</div>
 		</section>
 
-		<section class=''>
-			<div class='event-details'>
-					<h3><span>October 18, 2016</span>6:00PM</h3>
-					<div>
-						<a class='button-3' href='https://www.google.com/maps/place/SIFF+Cinema+Uptown' target='_blank'>SIFF Uptown Cinema</a>
-						<a class='button-3 button-tickets' href='#inline' data-lity>buy tickets</a>
-						<a class='button-3 button-tickets' href='../events/film-event.ics'>add to calendar</a>
-					</div>
-			</div>
+		<section>
+			<div class='content'>
+				<div class='event-details'>
+						<h3><span>October 18, 2016</span>6:00PM</h3>
+						<div>
+							<a class='button-3' href='https://www.google.com/maps/place/SIFF+Cinema+Uptown' target='_blank'>SIFF Uptown Cinema</a>
+							<a class='button-3 button-tickets' href='#inline' data-lity>buy tickets</a>
+							<a class='button-3 button-tickets' href='../events/film-event.ics'>add to calendar</a>
+						</div>
+				</div>
 
-			<div id="inline" class="lity-hide">
-					<div class='event-buy-tickets'>
-					<h2>Buy Tickets</h2>
-					<p>
-						Tickets are not yet available online. Would you like to get an email reminder when they become available?
+				<div id="inline" class="lity-hide">
+						<div class='event-buy-tickets'>
+						<h2>Buy Tickets</h2>
+						<p>
+							Tickets are not yet available online. Would you like to get an email reminder when they become available?
+						</p>
+						<form class='subscribe-email'action="">
+							<input type="text" name="email" placeholder="Enter your email" required>
+							<span><input type="submit" value="Remind me"></span>
+						</form>
+						</div>
+				</div>
+
+				<div class='description-columns'>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+						Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+						Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 					</p>
-					<form action="">
-						<input type="text" name="email" placeholder="Enter your email">
-						<span><input type="submit" value="Remind me"></span>
-					</form>
-					</div>
-			</div>
+					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
+						eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+						Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+						 qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+						  adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+					</p>
+				</div>
 
-			<div class='event-description'>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-					Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-					Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
-				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
-					eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-					Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
-					 qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
-					  adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
-				</p>
+				<ul class='list-details'>
+					<li>Director<span>Jacek Lusiński</span></li>
+					<li>Screenplay<span>Jacek Lusiński</span></li>
+					<li>Cinematography<span>Witold Płóciennik</span></li>
+					<li>Music<span>Paweł Lucewicz</span></li>
+					<li>Film Editor<span>Jacek Lusiński</span></li>
+					<li>Genre<span>Jacek Lusiński</span></li>
+					<li>Runtime<span>Jacek Lusiński</span></li>
+					<li>Release Year<span>Jacek Lusiński</span></li>
+					<li>Principal Cast<span>Andrzej Chyra, Urszula Grabowska, Arkadiusz Jakubik, Eliza Rycembel, Tomasz Ziętek, Dorota Kolak, 
+						Andrzej Blumenfeld, Maria Chwalibóg, Wojciech Pszoniak</span>
+					</li>
+				</ul>
 			</div>
-
-			<ul class='event-film-details'>
-				<li>Director<span>Jacek Lusiński</span></li>
-				<li>Screenplay<span>Jacek Lusiński</span></li>
-				<li>Cinematography<span>Witold Płóciennik</span></li>
-				<li>Music<span>Paweł Lucewicz</span></li>
-				<li>Film Editor<span>Jacek Lusiński</span></li>
-				<li>Genre<span>Jacek Lusiński</span></li>
-				<li>Runtime<span>Jacek Lusiński</span></li>
-				<li>Release Year<span>Jacek Lusiński</span></li>
-				<li>Principal Cast<span>Andrzej Chyra, Urszula Grabowska, Arkadiusz Jakubik, Eliza Rycembel, Tomasz Ziętek, Dorota Kolak, 
-					Andrzej Blumenfeld, Maria Chwalibóg, Wojciech Pszoniak</span>
-				</li>
-			</ul>
 		</section>
 
 

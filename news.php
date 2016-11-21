@@ -13,6 +13,8 @@
 		<script src="https://code.jquery.com/jquery-latest.js"></script>
 		<script src="js/full-screen-video.js" type="text/javascript"></script>
 		<script src="js/menu-fade-in.js" type="text/javascript"></script>
+		<script src="js/scroll-to-top.js" type="text/javascript"></script>
+		
 	</head>
 	<body id="news">
 
@@ -29,7 +31,7 @@
 		</section>
 
 		<section>
-			<h2>2016</h2>
+			<h2>2016 news</h2>
 			<div id='tiles'>
 				<div class='tile tile-news'>
 					<div class='tile-content' style="background-image: url('images/news/kacper.jpg')">

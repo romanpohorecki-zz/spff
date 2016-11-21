@@ -1,12 +1,15 @@
 		<section class='section-grey'>
-			<form action="">
-				<input type="text" name="email" placeholder="Enter your email to get SPFF discounts!">
-				<span><input type="submit" value="SIGN ME UP"></span>
+			<form class='subscribe-email' action="">
+				<div>
+					<input type="text" name="email" placeholder="Enter your email to get SPFF discounts!" required>
+					<span><input type="submit" value="SIGN ME UP"></span>
+				</div>
 			</form>
 		</section>
 
 		<footer>
 			<div class='section-black-overlay'>
+			    <a href="#" class="scroll-to-top"></a>
 				<div class='vertical-align'>
 					<h2>Come see the films</h2>
 					<p><a href='https://www.google.com/maps/place/SIFF+Cinema+Uptown' target='_blank'>
