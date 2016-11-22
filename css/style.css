@@ -718,6 +718,7 @@
 
 				#schedule .button-flex, #news .button-flex {
 					border-top: 1px solid #ccc;
+					background-color: #fff;
 				}
 
 				#get-involved .button-flex {
@@ -880,8 +881,8 @@
 				    display: block;
 				}
 
-				.section-highlights {
-					background-image: url(../images/home/home-bk.png);
+				.section-highlights, #schedule .schedule-tiles {
+					background-image: url(../images/schedule/schedule-bk.svg);
 					background-position: center;
 					background-size: cover;	
 					padding-bottom: 20px;

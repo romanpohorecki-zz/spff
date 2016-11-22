@@ -34,7 +34,7 @@
 			</div>
 		</section>
 
-		<section title='highlights' class='highlights'>
+		<section class='schedule-tiles'>
 			<h2>October 18</h2>
 
 			<div id='tiles'>
