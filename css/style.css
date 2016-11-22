@@ -69,9 +69,9 @@
 				}
 
 				h2 {
-					font-size: 1.5em;
+					font-size: 3vw;
 					color: #222222;
-					padding: 40px 0 20px 0;
+					padding: 20px 0 20px 0;
 					text-align: center;
 				}
 
@@ -102,6 +102,12 @@
 
 				.section-black h1, .section-black-overlay h1, .section-black h2, .section-black-overlay h2, .section-black-overlay p{
 					color: #fff;
+				}
+
+				@media only screen and (max-width: 960px) {
+					h2 {
+						font-size: 6vw;
+					}
 				}
 
 			/* Navigation */
@@ -214,7 +220,7 @@
 				}
 
 
-				@media only screen and (max-width: 860px) {
+				@media only screen and (max-width: 960px) {
 					nav {
 						height: auto;
 						display: inherit; 
@@ -264,7 +270,11 @@
 					background-color: rgba(0,0,0,.5);
 					background-size: cover;
 					background-repeat: no-repeat;
-					background-position: center;
+					background-position: center top;
+				}
+
+				#schedule #splash, #news #splash, #get-involved #splash, #submit-a-film #splash  {
+					padding-top: 33%;
 				}
 
 				#video-viewport {
@@ -295,10 +305,10 @@
 					color: #fff;
 					font-weight: bold;
 					line-height: 100%;
-					margin-top: 5%;
+					margin-top: 2.5%;
 					padding-right: 50vw;
 					text-align: left;
-					font-size: 5vw;
+					font-size: 4.5vw;
 				}
 
 				.intro h1 b{
@@ -315,13 +325,20 @@
 					font-size: 1.1em;
 					font-weight: 300;
 					line-height: 150%;
-					margin: 20px 50px 0 0;
+					margin: 10px 20px 0 0;
 				}
 
 				.intro img{
 					max-height: 25vw;
 					margin-left: auto;
 					border: 3px solid #fff;
+				}
+
+				.headline {
+					font-size: 2vw;
+					text-align: center;
+					font-weight: 300;
+					padding: 40px 0 0 0;
 				}
 
 				@media only screen and (max-width: 860px) {
@@ -343,14 +360,20 @@
 						display: none;
 					}
 
+					.headline {
+						font-size: 1.25em;
+						padding: 20px 10px 0 10px;
+					}
+
 					.splash-mobile {
-						background-image: url('../images/events/film-event.jpg');
+						background-image: url('../images/events/events-2016.jpg');
 						display: inherit;
+						background-color: rgba(0,0,0,.33);
 
 					}
 
 					.intro h1{
-						font-size: 1.5em;
+						font-size: 2em;
 					}
 
 					.intro img {
@@ -380,10 +403,11 @@
 				.tile, .tile-medium, .tile-large, .tile-poster, .tile-news {
 					width: 31.5%;
 					display: block;
-					margin-bottom: 7%;
+					margin-bottom: 8%;
 					margin-left: 1.75%;
 					background-color: white;
-				    box-shadow: 0 0 45px rgba(0,0,0,.3);
+				    box-shadow: 0 0 18px rgba(0,0,0,.3);
+				    border: 1px solid #ccc;
 				    box-sizing: border-box;
    					position: relative;
 				}
@@ -412,6 +436,10 @@
 					content: "";
 					display: block;
 					padding-top: 56.25%;
+				}
+
+				.tile-medium .tile-content:after{
+					padding-top: 28.125%;
 				}
 
 				.tile-large	.tile-content:after {
@@ -588,6 +616,17 @@
 				}
 
 				.button-3 {
+					margin: 0 20px 0 0;
+				}
+
+				#splash .button-1{
+					padding: 15px 40px 15px 40px;
+					margin: 10px 0 0 0;
+					display: block;
+					max-width: 160px;
+				}
+
+				.button-3 {
 					border: 1px solid #000;
 					color: #000;
 					letter-spacing: 1px;
@@ -677,8 +716,16 @@
 					padding: 40px 0 40px 0;
 				}
 
+				#schedule .button-flex, #news .button-flex {
+					border-top: 1px solid #ccc;
+				}
+
 				#get-involved .button-flex {
 					padding: 0 0 80px 0;
+				}
+
+				#schedule .button-flex .button-1 {
+					width: 120px;
 				}
 
 				.button-flex .button-1, .button-flex .button-2 {
@@ -735,7 +782,7 @@
 				}
 
 				.triangle-lower-right, .triangle-lower-left {
-					bottom: 0;
+					bottom: -1px;
 				}
 
 				.triangle-upper-right, .triangle-upper-left {
@@ -790,11 +837,6 @@
 					justify-content: center; 
 				}
 
-				#schedule .section-grey {
-					padding-top: 40px;
-					border-bottom: 1px solid #CCCCCC;
-				}
-
 				.section-black {
 					background-color: #000;
 				}
@@ -829,6 +871,7 @@
 
 				.section-winner {
 					padding-top: 100px;
+					border: 0;
 				}
 
 				.full-bleed, .full-bleed img {
@@ -1326,7 +1369,7 @@
 				}
 
 				.scroll-to-top {
-				    width: 40px;
+				    width: 27px;
 				    height: 40px;
 				    display: block;
 				    margin: 3% auto 0 auto;

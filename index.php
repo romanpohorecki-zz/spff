@@ -26,7 +26,7 @@
 
 		<?php include 'includes/nav.php';?>
 
-		<div id="splash">
+		<div id="splash" class='splash-mobile'>
 			<div id="video-viewport">
 			    <video autoplay loop preload muted width="100%" height="">
 			        <source src="images/home/intro.mp4"type="video/mp4"/>
@@ -36,7 +36,8 @@
 				<div class='intro'>
 					<div>
 						<h1>Welcome to the <b>24th</b> Annual Seattle Polish Film Festival</h1>
-						<p>Seattle Polish Film Festival (SPFF) is an annual event showcasing the best of Polish cinema since the early 1990s. The SPFF is produced and presented by the Seattle-Gdynia Sister City Association.</p>
+						<p>Join us for 36 films shown October 12-23, 2016 at the SIFF Cinema Uptown.</p>
+						<a class='button-1' href=''>see the 2016 schedule</a>
 					</div>
 					<img src='images/home/poster-2016.jpg'>
 				</div>
@@ -47,9 +48,45 @@
 		</div>
 
 		<section title='highlights' class='section-highlights'>
+			<div class='content'>
+				<p class='headline'>Seattle Polish Film Festival (SPFF) is an annual event showcasing the best of Polish cinema since the early 1990s. The SPFF is produced and presented by the Seattle-Gdynia Sister City Association.</p>
+			</div>
 			<h2>2016 Highlights</h2>
 
 			<div id='tiles'>
+
+
+				<div class='tile tile-medium '>
+					<div class='tile-content' style="background-image: url('images/events/film2.jpg')">
+						<div class='tile-genre'>genre</div>
+						<a class='button-preview' href="https://www.youtube.com/watch?v=ba2VFJEP71c" data-lity></a>
+					</div>
+					<div class='tile-additional-context'>
+						<h3>Title of the movie
+							<span>OCT. 18 <em>6:00PM</em></span>
+						</h3>
+						<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						</p>
+					</div>
+					<a href='/events/film-event.php'></a>
+				</div>
+
+				<div class='tile'>
+					<div class='tile-content' style="background-image: url('images/events/film3.jpg')">
+						<div class='tile-genre'>genre</div>
+						<a class='button-preview' href="https://www.youtube.com/watch?v=ba2VFJEP71c" data-lity></a>
+					</div>
+					<div class='tile-additional-context'>
+						<h3>Title of the movie
+							<span>OCT. 18 <em>6:00PM</em></span>
+						</h3>
+						<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						</p>
+					</div>
+					<a href='/events/film-event.php'></a>
+				</div>
 
 				<div class='tile tile-news'>
 					<div class='tile-content' style="background-image: url('images/news/kacper.jpg')">
@@ -82,38 +119,7 @@
 					</div>
 					<a href='/events/film-event.php'></a>
 				</div>
-
-				<div class='tile tile-medium '>
-					<div class='tile-content' style="background-image: url('images/events/film2.jpg')">
-						<div class='tile-genre'>genre</div>
-						<a class='button-preview' href="https://www.youtube.com/watch?v=ba2VFJEP71c" data-lity></a>
-					</div>
-					<div class='tile-additional-context'>
-						<h3>Title of the movie
-							<span>OCT. 18 <em>6:00PM</em></span>
-						</h3>
-						<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-						</p>
-					</div>
-					<a href='/events/film-event.php'></a>
-				</div>
-
-				<div class='tile'>
-					<div class='tile-content' style="background-image: url('images/events/film3.jpg')">
-						<div class='tile-genre'>genre</div>
-						<a class='button-preview' href="https://www.youtube.com/watch?v=ba2VFJEP71c" data-lity></a>
-					</div>
-					<div class='tile-additional-context'>
-						<h3>Title of the movie
-							<span>OCT. 18 <em>6:00PM</em></span>
-						</h3>
-						<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-						</p>
-					</div>
-					<a href='/events/film-event.php'></a>
-				</div>				
+								
 
 				<div class='tile tile-large'>
 					<div class='tile-content' style="background-image: url('images/events/film4.jpg')">
