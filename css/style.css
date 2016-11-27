@@ -364,7 +364,7 @@
 				}
 
 				@media only screen and (max-width: 660px) {
-					#splash {
+					#splash, #schedule #splash, #news #splash, #get-involved #splash, #submit-a-film #splash {
 						padding-top: 100%; 
 					}
 
@@ -425,6 +425,11 @@
 				    border: 1px solid #ccc;
 				    box-sizing: border-box;
    					position: relative;
+   					transition: all .3s ease-in-out;
+				}
+
+				.tile:hover {
+					transform: scale(1.02); 
 				}
 
 				.tile-medium {
@@ -1466,6 +1471,10 @@
 					    display: block;
 					    margin: 10px auto 0 auto;
 					    width: 90%;
+					}
+
+					#subscribe-email-success p, #subscribe-tickets-success p, #submit-film-success p{
+						font-size: 4vw;
 					}
 				}
 
