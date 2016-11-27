@@ -6,8 +6,7 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet'>
-		<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet'>
 
 		<link href="../dist/lity.css" rel="stylesheet">
 		<script src="../vendor/jquery.js"></script>
@@ -18,8 +17,7 @@
 		<script src="js/full-screen-video.js" type="text/javascript"></script>
 		<script src="js/menu-fade-in.js" type="text/javascript"></script>
 		<script src="js/scroll-to-top.js" type="text/javascript"></script>
-
-		
+		<script src="js/open-close.js" type="text/javascript"></script>
 	</head>
 
 	<body id="welcome">

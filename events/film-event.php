@@ -6,8 +6,7 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet'>
-		<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet'>
 
 		<link href="../dist/lity.css" rel="stylesheet">
 		<script src="../vendor/jquery.js"></script>
@@ -18,9 +17,9 @@
 		<script src="../js/full-screen-video.js" type="text/javascript"></script>
 		<script src="../js/menu-fade-in.js" type="text/javascript"></script>
 		<script src="../js/scroll-to-top.js" type="text/javascript"></script>
-
-
+		<script src="../js/open-close.js" type="text/javascript"></script>
 	</head>
+
 	<body id="event">
 
 		<?php include '../includes/nav.php';?>
@@ -52,16 +51,23 @@
 				</div>
 
 				<div id="inline" class="lity-hide">
-						<div class='event-buy-tickets'>
-						<h2>Buy Tickets</h2>
-						<p>
-							Tickets are not yet available online. Would you like to get an email reminder when they become available?
-						</p>
-						<form class='subscribe-email'action="">
-							<input type="text" name="email" placeholder="Enter your email" required>
-							<span><input type="submit" value="Remind me"></span>
-						</form>
+					<div class='event-buy-tickets'>
+					<h2>Buy Tickets</h2>
+					<p>
+						Tickets are not yet available online. Would you like to get an email reminder when they become available?
+					</p>
+					<form class='subscribe-email'action="">
+						<input type="text" name="email" placeholder="Enter your email" required>
+						<span><input type="submit" value="Remind me"></span>
+					</form>
+					</div>
+
+					<div id="subscribe-tickets-success">
+						<div class='vertical-align'>
+							<p>Thanks!<br> We'll send you a reminder when tickets become available.</p>
 						</div>
+						<div class='button-close' onclick="hide('subscribe-tickets-success')"></div>
+					</div>
 				</div>
 
 				<div class='description-columns'>

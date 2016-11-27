@@ -1,10 +1,17 @@
 		<section class='section-grey'>
-			<form class='subscribe-email' action="">
+			<form class='subscribe-email'>
 				<div>
 					<input type="text" name="email" placeholder="Enter your email to get SPFF discounts!" required>
-					<span><input type="submit" value="SIGN ME UP"></span>
+					<span><input type="submit" value="SIGN ME UP" onclick="show('subscribe-email-success')"/></span>
 				</div>
 			</form>
+			<div id="subscribe-email-success">
+				<div class='vertical-align'>
+					<p>Thanks for subscribing! Check your inbox soon...</p>
+				</div>
+				<div class='button-close' onclick="hide('subscribe-email-success')"></div>
+			</div>
+
 		</section>
 
 		<footer>

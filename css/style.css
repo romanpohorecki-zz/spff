@@ -522,7 +522,7 @@
 					display: block;
 					width: 100%;
 					font-size: 18px;
-					font-weight: 400;
+					font-weight: 700;
 					color: rgba(0,0,0,.3);
 				}
 
@@ -653,7 +653,6 @@
 					font-weight: 700;
 				}
 
-
 				.button-schedule-home{
 					display: block;
 					border: 0;
@@ -766,6 +765,35 @@
 					padding-bottom: 80px;
 					border: 0;
 				}
+
+				.button-close {
+					position: absolute;
+					top: 15px;
+					right: 15px;
+					display: block;
+					width: 30px;
+					height: 30px;
+					border: 0;
+				}
+
+				.button-close:after{
+					content: "x";
+   					font-family: Arial, Baskerville, monospace;
+   					font-weight: bold;
+					display: block;
+					text-align: center;
+					width: 30px;
+					height: 30px;
+				}
+
+				.button-close:hover{
+					cursor: pointer;
+				}
+
+				.section-black .button-close:after{
+					color: #fff;
+				}
+
 
 				@media only screen and (max-width: 660px) {
 					.button-flex {
@@ -908,7 +936,6 @@
 					background-image: url(../images/schedule/schedule-bk.svg);
 					background-position: center;
 					background-size: cover;	
-					padding-bottom: 20px;
 				}
 
 				.about h2 {
@@ -1268,14 +1295,14 @@
 					height: 140px
 				}
 
-				.submit input[type=submit] {
+				.submit input[type=button] {
 				    transform:scale(3.3);
 				    top: 20px;
 				    position: relative;
 				    display: block;
 				    margin: 0 auto;
 				    z-index: 100;
-				    opacity: 0;
+				    opacity: 1;
 				}
 
 				.submit span:after{
@@ -1373,6 +1400,33 @@
 
 				.subscribe-email input[type=submit]:hover{
 					cursor: pointer;
+				}
+
+				#subscribe-email-success, #subscribe-tickets-success, #submit-film-success {
+					position: absolute;
+					top: 0;
+					right: 0;
+					bottom: 0;
+					left: 0;
+					background-color: rgba(255,255,255,.85);
+					z-index: 50;
+				}
+
+				#subscribe-email-success p, #subscribe-tickets-success p, #submit-film-success p{
+					font-family: 'Open Sans Condensed';
+					font-weight: 700;
+					text-align: center;
+					font-size: 2vw;
+				}
+
+				#subscribe-email-success img{
+					display: block;
+					margin: 0 auto 10px auto;
+					width: 30px;
+				}
+
+				#submit-film-success {
+					background-color: rgba(0,0,0,.85);
 				}
 
 				@media screen and (max-width: 660px) {
