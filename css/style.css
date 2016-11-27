@@ -713,7 +713,7 @@
 				.button-flex {
 					display: flex;
 					justify-content: center;
-					padding: 40px 0 40px 0;
+					padding: 80px 0 80px 0;
 				}
 
 				#schedule .button-flex, #news .button-flex {
@@ -978,10 +978,48 @@
 
 			/* Detail pages */
 
+				#error-404{
+					background-image: url(../images/site/404.jpg);
+					background-position: center;
+					background-size: cover;
+					background-repeat: no-repeat;
+					text-align: center;
+					position: absolute;
+					top: 0;
+					right: 0;
+					bottom: 0;
+					left: 0;
+				}
+
 				.content {
 					max-width: 960px;
 					display: block;
 					margin: 0 auto;
+				}
+
+				.content-empty {
+					text-align: center;
+					font-weight: 200;
+					font-family: 'Open Sans Condensed';
+					text-transform: uppercase;
+					border: 1px solid #ccc;
+					padding: 120px 40px 120px 40px;
+					width: 80%;
+					margin: 0 auto 60px auto;
+					box-sizing: border-box;	
+				}
+
+				.content-empty p {
+					font-size: 5vw;
+					color: #cccccc;
+					line-height: 120%;
+				}
+
+				.content-empty span{
+					font-size: 2.5vw;	
+					color: #C51310;
+					display: block;
+					width: 100%;
 				}
 
 				.event-details {
@@ -1129,6 +1167,14 @@
 						border-size: border-box;
 						width: 95%;
 
+					}
+
+					.content-empty p {
+					font-size: 1.5em;
+					}
+
+					.content-empty span{
+						font-size: 1em;
 					}
 				}
 
