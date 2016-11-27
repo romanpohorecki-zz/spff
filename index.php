@@ -15,7 +15,6 @@
 		<link type="text/css" rel="stylesheet" href="css/style.css" media="screen" />
 		<script src="https://code.jquery.com/jquery-latest.js"></script>
 		<script src="js/full-screen-video.js" type="text/javascript"></script>
-		<script src="js/menu-fade-in.js" type="text/javascript"></script>
 		<script src="js/scroll-to-top.js" type="text/javascript"></script>
 		<script src="js/open-close.js" type="text/javascript"></script>
 	</head>
