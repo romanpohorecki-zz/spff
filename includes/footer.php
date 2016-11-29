@@ -11,7 +11,6 @@
 				</div>
 				<div class='button-close' onclick="hide('subscribe-email-success')"></div>
 			</div>
-
 		</section>
 
 		<footer>

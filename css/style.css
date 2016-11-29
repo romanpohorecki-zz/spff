@@ -418,7 +418,7 @@
 				.tile, .tile-medium, .tile-large, .tile-poster, .tile-news {
 					width: 31.5%;
 					display: block;
-					margin-bottom: 8%;
+					margin-bottom: 30px;
 					margin-left: 1.75%;
 					background-color: white;
 				    box-shadow: 0 0 18px rgba(0,0,0,.3);
@@ -524,8 +524,7 @@
 				}
 
 				.tile-additional-context p {
-				    display: inline-block;
-				    display: -webkit-inline-box;
+				    display: inherit;
 				    max-height: 100%;
 				    vertical-align: middle;
 				    -webkit-box-orient: vertical;
@@ -574,36 +573,32 @@
 					padding-right: 40px;
 				}
 
-				.tile-winner {
-					display: -webkit-box;
-					display: -moz-box;
-					display: -ms-flexbox;
-					display: -webkit-flex;
-					display: flex;
-					justify-content: flex-start;
-					margin: 20px 0 0 20px;
-				}
-
 				.tile-winner a{
 					position: relative;
 					border-bottom: 1px solid #000;
 				}
 
+				.tile-winner span {
+					width: 8%;
+    				float: left;
+    				display: block;
+				}
+
 				.tile-winner span img {
-					max-height: 150px;
-					padding-bottom: 20px;
+					width: 100%;
 				}
 
 				.tile-winner p {
 					font-size: 1.25em;
 					font-weight: 300;
-					padding: 0 5% 20px 40px;
+					padding: 20px 5% 20px 80px;
 				}
 
 
 				@media only screen and (max-width: 660px) {
 					.tile {
 						width: 100%;
+						margin-left: 0;
 					}
 
 					.tile-poster .tile-content img {
@@ -619,8 +614,17 @@
 						font-weight: 400;
 					}
 
-					.tile-additional-context .tile-winner {
+					.tile-poster .tile-content {
+						width: 100%;
+					}
 
+					.tile-poster .tile-content:after {
+						padding-top: 28.125%;
+					}
+
+					.tile-poster.tile:after {
+						left: 0;
+						width: 100%;
 					}
 
 					.tile-winner {
@@ -636,7 +640,7 @@
 					.tile-winner p {
 						font-size: 1em;
 						font-weight: 400;
-						padding: 0 20px 20px 20px;
+						padding: 10px 0 0 10px;
 					}
 
 				}
@@ -1029,6 +1033,10 @@
 				}
 
 				@media screen and (max-width: 660px) {
+					.section-highlights {
+						padding-bottom: 30px;
+					}
+
 					.section-news img {
 						width: 100%;
 					}

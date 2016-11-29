@@ -202,11 +202,11 @@
 
 			<div id='tiles'>
 
-				<div class='tile-large'>
+				<div class='tile tile-large tile-winner'>
 					<div class='tile-content' style="background-image: url('images/awards/2015.jpg')">
 					</div>
 
-					<div class='tile-additional-context tile-winner'>
+					<div class='tile-additional-context'>
 						<span><img src='images/home/award.jpg'></span>
 						<p>We have the pleasure to announce the 2015 Seattle Polish Film Festival Viewers Choice Award winner: <a href=''>Gods directed by Łukasz Palkowski.</a><br><br>Congratulations to the winner and a big thank you for all your votes.
 						</p>
