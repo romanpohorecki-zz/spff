@@ -13,6 +13,7 @@
 				<li><a class='get-involved' href='../get-involved.php'><span>get involved</span></a></li>
 				<li><a class='submit-a-film' href='../submit-a-film.php'><span>submit a film</span></a></li>
 				<li><a class='fb' target="_blank" href='https://www.facebook.com/seattle.polish.film.festival/'><span>Facebook</span></a></li>
+				<li><a class='instagram' target="_blank" href='https://www.instagram.com/seattlepolishfilms/'><span>Instagram</span></a></li>
 				<li><a class='email' target="_blank" href='mailto:michal@polishfilms.org'><span>Email Us</span></a></li>
 			</ul>
 			<a class='button-menu' href=''>menu</a>

@@ -246,6 +246,7 @@
 
 				<div class='button-flex'>
 					<a class='button-2 button-facebook' href='https://www.facebook.com/seattle.polish.film.festival/' target='_blank'>Facebook</a>
+					<a class='button-2 button-instagram' href='https://www.instagram.com/seattlepolishfilms/' target='_blank'>Instagram</a>
 					<a class='button-2 button-email' href='mailto:michal@polishfilms.org'>Email Us</a>
 				</div>
 			</div>

@@ -193,11 +193,16 @@
 					padding: 0 5px 2px 5px;
 				}
 				
-				a.fb, a.email {
+				a.fb, a.email, a.instagram {
 					background-repeat: no-repeat;
 					background-position: left center;
 					background-size: auto 100%;
 					padding: 0 10px 0 0;
+				}
+
+				a.instagram {
+					background-image: url('../images/site/instagram.svg');
+					margin-left: 10px;
 				}
 
 				a.fb {
@@ -209,7 +214,7 @@
 					margin-left: 10px;
 				}
 
-				.fb span, .email span{
+				.fb span, .email span, .instagram span{
 					font-size: 0;
 				}
 
@@ -259,7 +264,7 @@
 						width: 100%;
 					}
 
-					.fb span, .email span {
+					.fb span, .email span, .instagram span {
 						font-size: 12px;
 						margin-left: 25px;
 					}
@@ -279,10 +284,6 @@
 					background-size: cover;
 					background-repeat: no-repeat;
 					background-position: center top;
-				}
-
-				#schedule #splash, #news #splash, #get-involved #splash, #submit-a-film #splash  {
-					padding-top: 33%;
 				}
 
 				#video-viewport {
@@ -736,7 +737,7 @@
   					margin: auto;
 				}
 
-				.button-facebook, .button-email {
+				.button-facebook, .button-email, .button-instagram {
 					background-repeat: no-repeat;
 					background-position: right 20px center;
 					text-align: left;
@@ -750,6 +751,11 @@
 
 				.button-email {
 					background-image: url('../images/site/email-white.svg');
+					padding-left: 30px;			
+				}
+
+				.button-instagram {
+					background-image: url('../images/site/instagram-white.svg');
 					padding-left: 30px;			
 				}
 
