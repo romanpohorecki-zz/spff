@@ -42,6 +42,11 @@
 			<div class='content'>
 				<div class='event-details'>
 						<h3><span>October 18, 2016</span>6:00PM</h3>
+						<h4>&amp;</h4>
+						<h3><span>October 19, 2016</span>7:00PM</h3>
+						<h4>&amp;</h4>			
+						<h3><span>October 20, 2016</span>8:30PM</h3>
+
 						<div>
 							<a class='button-3' href='https://www.google.com/maps/place/SIFF+Cinema+Uptown' target='_blank'>SIFF Uptown Cinema</a>
 							<a class='button-3 button-tickets' href='#inline' data-lity>buy tickets</a>
