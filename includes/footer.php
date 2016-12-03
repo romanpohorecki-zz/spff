@@ -26,5 +26,8 @@
 					</p>
 				</div>
 			</div>
-			<div class='copyright'><p>Copyright © 2016 :: Seattle Polish Film Festival</p></div>	
+			<div class='copyright'>
+				<a class='archive' href='http://www.polishfilms.org/films/2015' target="_blank">Archived Site</a>
+				<p>Copyright © 2016 :: Seattle Polish Film Festival</p>
+			</div>	
 		</footer>

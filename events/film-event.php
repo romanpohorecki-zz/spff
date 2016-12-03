@@ -88,6 +88,29 @@
 					</p>
 				</div>
 
+				<h2>Special Guests</h2>
+
+				<div class='event-guests'>
+					<div class='event-guest'>
+						<span style="background-image: url('../images/events/guest1.jpg')"></span>
+						<p>Firstname Lastname</p>
+						<b>Title</b>
+					</div>
+
+					<div class='event-guest'>
+						<span style="background-image: url('../images/events/guest2.jpg')"></span>
+						<p>Firstname Lastname</p>
+						<b>Title</b>
+					</div>
+
+					<div class='event-guest'>
+						<span style="background-image: url('../images/events/guest2.jpg')"></span>
+						<p>Firstname Lastname</p>
+						<b>Title</b>
+					</div>
+
+				</div>
+
 				<ul class='list-details'>
 					<li>Director<span>Jacek Lusiński</span></li>
 					<li>Screenplay<span>Jacek Lusiński</span></li>
